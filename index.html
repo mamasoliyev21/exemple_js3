@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div  style="text-align: center" class="header_logo">
+    <img src="./images/360_F_208406889_hodWRjw2cOX9pKCOR7TZWhgUXWGEbcJ8.jpg" alt="">
+  </div>
+
+
+<h1>Pitsa buyurtma qilish</h1>
+<div class="work">
+  <div class="work_title">
+    <h1 class="work_title-text">
+      Kechirasiz Siz Toliq Buyurtma Bermadinggiz!
+    </h1>
+    <button class="intro_btn"> Qaytadan buyurtma bering</button>
+  </div>
+</div>
+<div class="intro">
+  <div class="intro_title">
+    <h1 class="intro-text">
+      Hurmatli mijoz sizning buyurtmangiz qabul qilindi 
+    </h1>
+    <button class="work_btn">Qaytadan buyurtma bering</button>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="wrapper_left">
+    <h3>Noni qanday bolsin?</h3>
+    <select name="select" id="select">
+      <option value="yupqa">yupqa</option>
+      <option value="qalin">qalin</option>
+      <option value="ortacha">ortacha</option>
+    </select>
+    <h4 class="form__title">Kattaligi</h4>
+    <div class="card_input">
+      <input type="radio" class="size-wrapper__input">
+      <label for="small-size" class="size_one">25sm</label>
+      
+      <input type="radio" class="size-wrapper__input">
+      <label for="normal-size" class="size_one">30sm</label>
+      
+      <input type="radio" id="big-size" class="size-wrapper__input">
+      <label for="big-size" class="size_one">35sm</label>
+    </div>
+    
+    <h4 class="form__title">Ustiga nima solaylik</h4>
+    
+    <div class="checkbox-wrapper" style="display: flex;">
+      <div class="checbox_one">
+        <div class="hold">
+          
+            <input data-extra="pomidor" type="checkbox" id="pamidor" class="hold__input">
+            <label for="pamidor" class="hold__label">Pamidor </label>
+          
+        </div>
+        
+        <div class="hold">
+          <input data-extra="Tuzlangan bodring" type="checkbox" id="Tuzlangan bodring" class="hold__input">
+            <label for="Tuzlangan bodring" class="hold__label">Tuzlangan bodring </label>
+        </div>
+        
+        <div class="hold">
+          <input data-extra="Kurka go'shti" id="Kurka go'shti" type="checkbox" class="hold__input">
+          <label for="Kurka go'shti" class="hold__label">Kurka go'shti</label>
+        </div>
+      </div>
+      <div class="checbox_two">
+        
+        <div class="hold">
+          <input data-extra="Qo'ziqorin" id="qoziqorin" type="checkbox"class="hold__input">
+          <label for="qoziqorin" class="hold__label">Qo'ziqorin</label>
+        </div>
+        
+        <div class="hold">
+          <input data-extra="Zaytun" id="Zaytun" type="checkbox"class="hold__input">
+          <label for="Zaytun" class="hold__label">Zaytun</label>
+        </div>
+        
+        <div class="hold">
+          <input data-extra="Qazi" type="checkbox"id="Qazi" class="hold__input">
+          <label for="Qazi" class="hold__label">Qazi</label>
+        </div>
+      </div>
+    </div>
+    <h4>Qoshimchalar</h4>
+    <div class="checkbox_three">
+      <div class="checkbox-wrapper">
+        <div class="hold">
+          <input data-extra="Achchiq" type="checkbox" id="bitter" class="hold__inputt">
+          <label for="bitter" class="cold__label">Achchiq</label>
+        </div>
+        <div class="hold">
+          <input data-extra="Sosiskalar" type="checkbox" id="sausages" class="hold__inputt">
+          <label for="sausages" class="cold__label">Sosiskalar</label>
+        </div>
+      </div>
+    </div> 
+  </div>
+  
+  
+  <div class="wrapper_right">
+    <h4>Non: <span id="bread"></span></h4>
+    <h4>Kattaligi: <span id="bread_size"></span></h4>   
+    <h4>Ustida:</h4>
+    <ul id="li-wrapper">
+      
+    </ul>
+    <h4 >Qo'shimcha: </h4>
+    <ul id="qushimcha__list">
+      
+    </ul>
+    <button id="btn">Buyurtma berish</button>
+  </div>
+</div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
